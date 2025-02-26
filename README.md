@@ -18,6 +18,18 @@ TECHNOLGIES USED:
 6. Scipy – Detects peaks and valleys in stock price trends.
 
 
+FEATURES:
+1.Fetches 10 years of historical stock/index data using yfinance
+
+2.Identifies peaks and valleys in stock prices
+
+3.Determines support and resistance levels
+
+4.Provides REST API endpoints to serve processed stock data
+
+5.Visualizes stock trends with Matplotlib plots
+
+
 
 
 
