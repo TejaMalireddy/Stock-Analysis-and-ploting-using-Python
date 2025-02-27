@@ -1,33 +1,26 @@
-# Stock-Analysis-and-ploting-using-Python
+# Stock Analysis and Plotting using Python
 
-PROJECT OVERVIEW:
-.) This is a stock analysis project tool built using django and django rest-framework. It fetches historical data of indexes of stocks over last 10 years with 1 day time frame.Data Visualization and plotting is done using Matplotlib library.It retrives stock data from Yahoo Finance API using yfincance and set API end point using DRF framework,to fetch the data by identifying peaks ,valleys,support and resistance.
+## Project Overview
+This stock analysis tool is built using Django and Django REST Framework (DRF). It fetches historical stock index data from the past 10 years with a 1-day time frame. The project utilizes data visualization techniques with Matplotlib to analyze stock trends. Stock data is retrieved from Yahoo Finance using the `yfinance` library. The tool processes the data to identify key market patterns such as peaks, valleys, support, and resistance levels and provides REST API endpoints for data retrieval.
+
+## Technologies Used
+1. **Django** – Backend framework for API development.
+2. **Django REST Framework (DRF)** – Implements REST API endpoints.
+3. **Yfinance** – Fetches historical stock/index data from Yahoo Finance.
+4. **Pandas** – Used for data processing and analysis.
+5. **Matplotlib** – Facilitates stock price trend visualization, including peaks and support/resistance levels.
+6. **Scipy** – Detects peaks and valleys in stock price trends.
+
+## Features
+1. Fetches 10 years of historical stock/index data using `yfinance`.
+2. Identifies peaks and valleys in stock prices using scientific computing techniques.
+3. Determines support and resistance levels for market trend analysis.
+4. Provides REST API endpoints to serve processed stock data for further analysis and visualization.
+5. 5.Visualizes stock trends with Matplotlib plots.
+
+This tool enables users to analyze stock trends effectively and make informed decisions based on historical data insights.
 
 
-TECHNOLGIES USED:
-1. Django – Backend framework for API development
-
-2. Django REST Framework (DRF) – REST API implementation
-
-3. Yfinance – Fetches stock/index historical data from Yahoo Finance
-
-4. Pandas – Data processing and analysis
-
-5. Matplotlib – Plotting stock price trends, peaks, and support/resistance
-
-6. Scipy – Detects peaks and valleys in stock price trends.
-
-
-FEATURES:
-1.Fetches 10 years of historical stock/index data using yfinance
-
-2.Identifies peaks and valleys in stock prices
-
-3.Determines support and resistance levels
-
-4.Provides REST API endpoints to serve processed stock data
-
-5.Visualizes stock trends with Matplotlib plots
 
 
 
