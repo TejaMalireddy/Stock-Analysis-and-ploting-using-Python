@@ -16,7 +16,7 @@ This stock analysis tool is built using Django and Django REST Framework (DRF). 
 2. Identifies peaks and valleys in stock prices using scientific computing techniques.
 3. Determines support and resistance levels for market trend analysis.
 4. Provides REST API endpoints to serve processed stock data for further analysis and visualization.
-5.Visualizes stock trends with Matplotlib plots.
+5. Visualizes stock trends with Matplotlib plots.
 
 
 This tool enables users to analyze stock trends effectively and make informed decisions based on historical data insights.
